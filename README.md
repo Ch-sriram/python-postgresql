@@ -20,10 +20,10 @@ This repository contains concepts and code related to apply CRUD operations usin
    - List all the DBs: **`\l`**
    - Switching DBs: **`\c db_name`**
 2. Relation/Table Initialization
-   - Creating a Table: **`CREATE TABLE *table_name* (<attr_1> <dtype_1>, <attr_2> <dtype_2>, <attr_3> <dtype_3>, ..., <attr_n> <dtype_n>);`** <br>
-   Example Usage: **`CREATE TABLE students(name text, address text, age int, number int);`**
+   - Creating a Table: **<code>CREATE TABLE *table_name* (*attr_1* *dtype_1*, *attr_2* *dtype_2*, *attr_3* *dtype_3*, ..., *attr_n* *dtype_n*);</code>** <br>
+   Example Usage: **<code>CREATE TABLE students(name text, address text, age int, number int);</code>**
 3. Data Insertion into Relations
-   - Insert Single Record: **`INSERT INTO table_name (<attr_1>, <attr_2>, <attr_3>, ..., <attr_n>) VALUES (<val_1>, <val_2>, <val_3>, ..., <val_n>);`** <br> Example Usage: **`INSERT INTO students(name, address, age, number) VALUES('Ram', 'Hyd', 25, 81878);`**
+   - Insert Single Record: **<code>INSERT INTO *table_name* (*attr_1*, *attr_2*, *attr_3*, ..., *attr_n*) VALUES (*val_1*, *val_2*, *val_3*, ..., *val_n*);</code>** <br> Example Usage: **<code>INSERT INTO students(name, address, age, number) VALUES('Ram', 'Hyd', 25, 81878);</code>**
 4. Querying Records From Relation
-   - Query All Records: **`SELECT * FROM <table_name>;`** <br> Example Usage: **`SELECT * FROM students;`**
-   - Querying Records w.r.t a Condition: **`SELECT * FROM <table_name> WHERE <condition>;`** <br> Example Usage: **`SELECT * FROM students WHERE number=81878;`**
+   - Query All Records: **<code>SELECT * FROM *table_name*;</code>** <br> Example Usage: **<code>SELECT * FROM students;</code>**
+   - Querying Records w.r.t a Condition: **<code>SELECT * FROM *table_name* WHERE *condition*;</code>** <br> Example Usage: **<code>SELECT * FROM students WHERE number=81878;</code>**
