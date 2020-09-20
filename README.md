@@ -34,4 +34,4 @@ This repository contains concepts and code related to apply CRUD operations usin
 
 ### Interacting with PostgreSQL using Python
 
-1. Connecting To PostgreSQL DB using `psycopg2` Driver in Python: [Commit Details]()
+1. Connecting To PostgreSQL DB using `psycopg2` Driver in Python: [Commit Details](https://github.com/Ch-sriram/python-postgresql/commit/ce45a5c118e16affda50cd282006908e990242c0)
