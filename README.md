@@ -31,3 +31,7 @@ This repository contains concepts and code related to apply CRUD operations usin
 4. Querying Records From Relation
    - Query All Records: **<code>SELECT * FROM *table_name*;</code>** <br> Example Usage: **<code>SELECT * FROM students;</code>**
    - Querying Records w.r.t a Condition: **<code>SELECT * FROM *table_name* WHERE *condition*;</code>** <br> Example Usage: **<code>SELECT * FROM students WHERE number=81878;</code>**
+
+### Interacting with PostgreSQL using Python
+
+1. Connecting To PostgreSQL DB using `psycopg2` Driver in Python: [Commit Details]()
