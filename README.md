@@ -9,7 +9,11 @@ This repository contains concepts and code related to apply CRUD operations usin
 - Install PostgreSQL from **[here](https://www.postgresql.org/download/)**.
   - Installation Validation Steps: Open **`psql`** from your terminal, or from the start.
   - Prompt will be asked for password, type it, and we're using PostgreSQL successfully &mdash; which means it was successfully installed.
-- After Installing Python3, open a directory &mdash; say `pypostgres` (we can name it however we want) and inside it, run the following command: **`pip3 install virtualenv`**. Now make a virtual environment in python inside the `pypostgres` directory using the command **`source ./Scripts/activate`** (for linux/macOS) [for Windows, run the command: **`./Scripts/activate`**], to run the environment. To stop the virtual environment, we can use the command: **`deactivate`** w.r.t the virtual environment.
+- Virtual Environment Setup
+  - After Installing Python3, open a directory &mdash; say `pypostgres` (we can name it however we want) and inside it, run the following command: **`pip3 install virtualenv`**. 
+  - Now make a virtual environment in python inside the `pypostgres` directory using the command **`source ./Scripts/activate`** (for linux/macOS) [for Windows, run the command: **`./Scripts/activate`**], to run the environment. 
+  - To stop the virtual environment, we can use the command: **`deactivate`** w.r.t the virtual environment.
+- To Connect Python & PostgreSQL, we install the `psycopg2` driver using the following command: **`pip install psycopg2==2.7.5`**
 
 ## Contents
 
